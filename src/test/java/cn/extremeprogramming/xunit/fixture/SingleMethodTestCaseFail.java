@@ -1,8 +1,10 @@
 package cn.extremeprogramming.xunit.fixture;
 
+import cn.extremeprogramming.xunit.RTWTestCase;
+
 import static org.junit.Assert.fail;
 
-public class SingleMethodTestCaseFail extends RTWTestCase{
+public class SingleMethodTestCaseFail extends RTWTestCase {
     public void single_test_method(){
         fail();
     }

@@ -1,4 +1,4 @@
-package cn.extremeprogramming.xunit.fixture;
+package cn.extremeprogramming.xunit;
 
 public class RTWTestResult {
     private String methodName;
@@ -15,9 +15,6 @@ public class RTWTestResult {
 
     public Throwable getException() {
         return exception;
-    }
-
-    public RTWTestResult() {
     }
 
     public RTWTestResult(String methodName, boolean success, Throwable exception) {

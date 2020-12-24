@@ -1,12 +1,10 @@
 package cn.extremeprogramming.xunit;
 
 import cn.extremeprogramming.xunit.fixture.EmptyTestCase;
-import cn.extremeprogramming.xunit.fixture.RTWTestResult;
 import cn.extremeprogramming.xunit.fixture.SingleMethodTestCase;
 import cn.extremeprogramming.xunit.fixture.SingleMethodTestCaseFail;
 import org.junit.Test;
 
-import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 

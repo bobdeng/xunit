@@ -1,5 +1,7 @@
 package cn.extremeprogramming.xunit.fixture;
 
-public class EmptyTestCase extends RTWTestCase{
+import cn.extremeprogramming.xunit.RTWTestCase;
+
+public class EmptyTestCase extends RTWTestCase {
 
 }

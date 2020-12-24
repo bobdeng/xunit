@@ -1,8 +1,8 @@
-package cn.extremeprogramming.xunit.fixture;
+package cn.extremeprogramming.xunit;
 
 public class RTWTestMethod {
-    private String name;
-    private Runnable method;
+    private final String name;
+    private final Runnable method;
 
     public RTWTestMethod(String name, Runnable method) {
         this.name = name;
